@@ -57,3 +57,10 @@ CRISP-DM:
 
 9. Publicação da Solução: Será gerada uma base semanal para as area com a identificação dos clientes com grande propensão de Churn.
 
+# EDA ( Análise Exploratória )
+A partir da exploração inicial dos dados, foram levantadas diversas hipóteses de negócio com o objetivo de identificar padrões e comportamentos relevantes nas features do dataset.
+Para cada hipótese, foram conduzidas análises visuais e estatísticas que permitiram investigar relações entre as variáveis e o fenômeno do churn — a saída de clientes da base.
+
+
+Das análises realizadas, três se destacaram por apresentar padrões consistentes e estatisticamente relevantes, sugerindo forte relação com a probabilidade de um cliente abandonar o serviço. 
+
