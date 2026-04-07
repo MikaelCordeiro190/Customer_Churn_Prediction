@@ -81,9 +81,11 @@ No primeiro ciclo do projeto, foram selecionados cinco algoritmos para teste, vi
 
 Os algotitmos selecionados foram:
 
-KNN
-Logistic Regression
-Random Forest Classification
+• KNN
+
+• Logistic Regression
+
+• Random Forest Classification
 
 Após a seleção dos algoritmos, procedemos com o treinamento e teste de cada um deles para avaliar sua performance.Além disso, aplicamos dois métodos de seleção de features — RFE (Recursive Feature Elimination) e Feature Importance e cruzamos os resultados para identificar as variáveis em comum entre ambos. A partir dessa interseção, combinada com as análises exploratórias realizadas anteriormente, definimos as features finais para o modelo.
 
