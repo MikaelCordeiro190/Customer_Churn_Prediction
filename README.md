@@ -90,10 +90,15 @@ Após a seleção dos algoritmos, procedemos com o treinamento e teste de cada u
 Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Validation para garantir que os resultados não fossem enviesados. Para avaliar a performance dos modelos, utilizamos as seguintes métricas :
 
 • Acurácia        — percentual de predições corretas sobre o total de amostras.
+
 • Precision       — dos clientes classificados como churn, quantos realmente eram churn.
+
 • Recall          — dos clientes que realmente eram churn, quantos o modelo conseguiu capturar.
+
 • F1-Score        — média harmônica entre Precision e Recall, equilibrando as duas métricas.
+
 • AUC-ROC         — capacidade do modelo de separar as classes churn e não-churn.
+
 • Balanced Acc.   — acurácia média por classe, mais justa em datasets desbalanceados.
 
 
