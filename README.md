@@ -106,10 +106,10 @@ Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Vali
 
 | Métrica | KNN | Logistic Regression | Random Forest |
 |---|:---:|:---:|:---:|
-| Accuracy | 0.7730 | 0.7996 | **0.8050** |
+| Accuracy | 0.7730 | 0.8396 | **0.8550** |
 | Precision | 0.5682 | **0.6421** | 0.6389 |
 | Recall | 0.3571 | 0.4357 | **0.4929** |
-| F1-Score | 0.4386 | 0.5191 | **0.5565** |
+| F1-Score | 0.4386 | 0.5491 | **0.5665** |
 | ROC AUC | 0.7550 | 0.8214 | **0.8568** |
 | Balanced Accuracy | 0.6338 | 0.6778 | **0.7004** |
 
