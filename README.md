@@ -64,15 +64,15 @@ Para cada hipótese, foram conduzidas análises visuais e estatísticas que perm
 
 Das análises realizadas, três se destacaram por apresentar padrões consistentes e estatisticamente relevantes, sugerindo forte relação com a probabilidade de um cliente abandonar o serviço. 
 
-# 1.1 Clientes com serviço de Fibra Óptica apresentam os maiores índices de churn.
+## 1.1 Clientes com serviço de Fibra Óptica apresentam os maiores índices de churn.
 
 <img width="708" height="438" alt="image" src="https://github.com/user-attachments/assets/3343129c-30ba-4ad1-ad72-2064d36e20aa" />
 
-# 1.2 O método de pagamento por Cheque Eletrônico concentra quase metade dos casos de churn.
+## 1.2 O método de pagamento por Cheque Eletrônico concentra quase metade dos casos de churn.
 
 <img width="707" height="438" alt="image" src="https://github.com/user-attachments/assets/b35a2875-50eb-4bda-ba6e-6892e4e61b0c" />
 
-# 1.3 Contratos mensais possuem maior propensão ao churn em relação a contratos de longo prazo.
+## 1.3 Contratos mensais possuem maior propensão ao churn em relação a contratos de longo prazo.
 
 <img width="708" height="439" alt="image" src="https://github.com/user-attachments/assets/025d4b56-392e-47f9-8aff-fcca4574c9d8" />
 
