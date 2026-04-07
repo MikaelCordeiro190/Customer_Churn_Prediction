@@ -102,7 +102,18 @@ Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Vali
 • AUC-ROC         — capacidade do modelo de separar as classes churn e não-churn.
 
 • Balanced Acc.   — acurácia média por classe, mais justa em datasets desbalanceados.
-<img width="1440" height="760" alt="image" src="https://github.com/user-attachments/assets/8e8da083-e758-4eb4-be44-65a4b8539a5c" />
+## 📊 Comparação de Modelos — Predição de Churn
+
+| Métrica | KNN | Logistic Regression | Random Forest |
+|---|:---:|:---:|:---:|
+| Accuracy | 0.7730 | 0.7996 | **0.8050** |
+| Precision | 0.5682 | **0.6421** | 0.6389 |
+| Recall | 0.3571 | 0.4357 | **0.4929** |
+| F1-Score | 0.4386 | 0.5191 | **0.5565** |
+| ROC AUC | 0.7550 | 0.8214 | **0.8568** |
+| Balanced Accuracy | 0.6338 | 0.6778 | **0.7004** |
+
+> Os valores em **negrito** indicam o melhor resultado por métrica.
 
 
 
