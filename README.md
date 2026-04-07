@@ -102,6 +102,7 @@ Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Vali
 • AUC-ROC         — capacidade do modelo de separar as classes churn e não-churn.
 
 • Balanced Acc.   — acurácia média por classe, mais justa em datasets desbalanceados.
+<img width="1440" height="760" alt="image" src="https://github.com/user-attachments/assets/8e8da083-e758-4eb4-be44-65a4b8539a5c" />
 
 
 
