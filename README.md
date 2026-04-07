@@ -76,5 +76,26 @@ Das análises realizadas, três se destacaram por apresentar padrões consistent
 
 <img width="708" height="439" alt="image" src="https://github.com/user-attachments/assets/025d4b56-392e-47f9-8aff-fcca4574c9d8" />
 
+# Definição de Modelos de Machine Learning
+No primeiro ciclo do projeto, foram selecionados cinco algoritmos para teste, visando identificar o algoritmo com melhor desempenho e custo de implementação. Nessa etapa inicial, optou-se pela simplicidade, considerando que era o primeiro ciclo do projeto e o objetivo principal era entregar uma solução mínima utilizável para a equipe de negócios e pelo CFO.
+
+Os algotitmos selecionados foram:
+
+KNN
+Logistic Regression
+Random Forest Classification
+
+Após a seleção dos algoritmos, procedemos com o treinamento e teste de cada um deles para avaliar sua performance.Além disso, aplicamos dois métodos de seleção de features — RFE (Recursive Feature Elimination) e Feature Importance e cruzamos os resultados para identificar as variáveis em comum entre ambos. A partir dessa interseção, combinada com as análises exploratórias realizadas anteriormente, definimos as features finais para o modelo.
+
+# Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Validation para garantir que os resultados 
+# não fossem enviesados. Para avaliar a performance dos modelos, utilizamos as seguintes métricas:
+
+# • Acurácia        — percentual de predições corretas sobre o total de amostras.
+# • Precision       — dos clientes classificados como churn, quantos realmente eram churn.
+# • Recall          — dos clientes que realmente eram churn, quantos o modelo conseguiu capturar.
+# • F1-Score        — média harmônica entre Precision e Recall, equilibrando as duas métricas.
+# • AUC-ROC         — capacidade do modelo de separar as classes churn e não-churn.
+# • Balanced Acc.   — acurácia média por classe, mais justa em datasets desbalanceados.
+
 
 
