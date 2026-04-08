@@ -114,5 +114,38 @@ Nessa fase, os algoritmos foram treinados e submetidos ao processo de Cross Vali
 
 > Os valores em **negrito** indicam o melhor resultado por métrica.
 
+# Escolha do Modelo
+
+Apesar de diversos modelos terem sido avaliados durante o processo de validação cruzada, o Random Forest Classifier apresentou o melhor desempenho geral entre os algoritmos testados. Esse modelo obteve os maiores valores nas principais métricas de erro, incluindo Accuracy (0.8550), Recall (0.5829) e ROC AUC (0.8568), indicando maior precisão nas previsões em comparação aos demais modelos.
+
+Dessa forma, o Random Forest Classifier foi selecionado para prosseguimento na etapa de otimização de hiperparâmetros (Hyperparameter Fine Tuning). A escolha se justifica pelo seu desempenho superior durante a fase de validação, demonstrando maior capacidade de capturar padrões complexos nos dados.
+
+
+# Hiperparâmetros
+
+Foi empregada a técnica de Grid Search para otimizar a busca dos melhores hiperparâmetros. A fim de identificar o parâmetro ideal, optei por utilizar uma amostra referente a um período de 1 ano. Essa escolha permite aumentar o número de iterações em um espaço de tempo reduzido, maximizando a probabilidade de localizar um mínimo global.
+
+
+# Final Resultado
+
+Foi gerada uma listagem com as previsões do modelo, identificando os usuários com maior probabilidade de churn. A partir dessa segmentação, torna-se possível priorizar clientes mais propensos à evasão e direcionar esforços de forma mais eficiente, aumentando a efetividade das ações de retenção.
+
+Com esses insights, as áreas de negócio podem estruturar campanhas de marketing mais personalizadas, ofertas direcionadas e abordagens proativas via telemarketing, focando em clientes com maior risco de cancelamento. Além disso, o modelo permite apoiar a tomada de decisão com base em dados, substituindo abordagens genéricas por estratégias orientadas a comportamento e probabilidade de saída.
+
+
+# Proximos Passos 
+
+No Proximo Passo do modelo CRISP-DM, podem ser incrementados:
+
+Testar outros algoritmos de Machine Learning
+
+Trabalhar com outras features
+
+Utilizar outra estratégia para Fine Tuning Hyperparameter
+
+
+
+
+
 
 
