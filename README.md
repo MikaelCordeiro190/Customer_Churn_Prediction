@@ -132,6 +132,8 @@ Foi gerada uma listagem com as previsões do modelo, identificando os usuários 
 
 Com esses insights, as áreas de negócio podem estruturar campanhas de marketing mais personalizadas, ofertas direcionadas e abordagens proativas via telemarketing, focando em clientes com maior risco de cancelamento. Além disso, o modelo permite apoiar a tomada de decisão com base em dados, substituindo abordagens genéricas por estratégias orientadas a comportamento e probabilidade de saída.
 
+Como resultado, espera-se a redução da taxa de churn, aumento da retenção de clientes e melhor aproveitamento dos recursos operacionais e de marketing, contribuindo diretamente para a preservação e crescimento da receita da empresa.
+
 
 # Proximos Passos 
 
